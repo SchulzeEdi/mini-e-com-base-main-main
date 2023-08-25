@@ -1,0 +1,23 @@
+<div class="container mt-5 mb-5">
+  <div class="row row-cols-auto justify-content-center g-5">
+    {{cadastroContent}}
+  </div>
+
+  <form method="post" class="row g-3">
+    <div class="col-12">
+      <label for="inputEmail4" class="form-label">Nome do produto</label>
+      <input type="text" class="form-control" id="inputEmail4" name="nome"/>
+    </div>
+
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Preço do produto</label>
+      <input type="number" class="form-control" id="inputAddress" name="preco"/>
+    </div>
+
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary" name="submit">
+        Alterar
+      </button>
+    </div>
+  </form>
+</div>
